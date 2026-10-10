@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form method="post" action="#"></form>
+    <h1>Form Mahasiswa</h1>
+    <h3>Data Mahasiswa</h3>
+    <table>
+        <tr>
+            <td>NAMA</td>
+            <td>:</td>
+            <td><input type="text" name="nama"></td>
+        </tr>
+        <tr>
+            <td>NPM</td>
+            <td>:</td>
+            <td><input type="text" name="npm"></td>
+        </tr>
+        <tr>
+            <td>KELAS</td>
+            <td>:</td>
+            <td>
+                <select name="kelas" id="">
+                    <option value="Kelas A">A</option>
+                    <option value="Kelas B">B</option>
+                    <option value="Kelas C">C</option>
+                </select>
+        </tr>
+        <tr>
+            <td>Jenis Kelamin</td>
+            <td>:</td>
+            <td>
+                <input type="radio" name="gender" value="pria"> Pria
+                <input type="radio" name="gender" value="wanita"> Wanita
+            </td>
+        </tr>
+    </table>
+
+    <h3>Tempat Tinggal Mahasiswa</h3>
+    <table>
+        <tr>
+            <td>Alamat</td>
+            <td>:</td>
+            <td><textarea type="text" name="alamat" rows="5"></textarea></td>
+        </tr>
+        <tr>
+            <td>Kecamatan</td>
+            <td>:</td>
+            <td><input type="text" name="kec"></td>
+        </tr>
+        <tr>
+            <td>Kabupaten/Kotamadya</td>
+            <td>:</td>
+            <td><input type="text" name="kab"></td>
+        </tr>
+        <tr>
+            <td>Provinsi</td>
+            <td>:</td>
+            <td><input type="text" name="provinsi"></td>
+        </tr>
+        <tr>
+            <td>Kode Pos</td>
+            <td>:</td>
+            <td><input type="text" name="pos"></td>
+        </tr>
+    </table>
+
+    <h3>Lain lainnya</h3>
+    <table>
+        <tr>
+            <td>Bahasa Pemrograman</td>
+            <td>:</td>
+            <td>
+                <table>
+                    <tr>
+                        <td><input type="checkbox" name="bahasa " value="C">C/C++</td>
+                        <td><input type="checkbox" name="bahasa " value="lang">Go Lang</td>
+                        <td><input type="checkbox" name="bahasa " value="P">Phyton</td>
+                        <td><input type="checkbox" name="bahasa " value="lain">Lainnya</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="bahasa " value="php">PHP</td>
+                        <td><input type="checkbox" name="bahasa " value="js">Javascript</td>
+                        <td><input type="checkbox" name="bahasa " value="ruby">Ruby</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>Kegiatan</td>
+            <td>:</td>
+            <td>
+                <table>
+                    <tr>
+                        <td><input type="checkbox" name="kegiatan " value="kemahasiswaan">Organisasi Kemahasiswaan</td>
+                        <td><input type="checkbox" name="kegiatan " value="olahraga">Bidang Olahraga</td>
+                        <td><input type="checkbox" name="kegiatan " value="lain">Lainnya</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="kegiatan " value="luarKampus">Organisasi Luas Kampus</td>
+                        <td><input type="checkbox" name="kegiatan " value="seni">Bidang Seni</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
